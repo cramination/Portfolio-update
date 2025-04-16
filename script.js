@@ -32,6 +32,8 @@ function showButton() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 
 function showButton2() {
@@ -41,6 +43,8 @@ function showButton2() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 
 function showButton3() {
@@ -49,7 +53,9 @@ function showButton3() {
     document.getElementById('hide-button')
         .style.display = "block";
      document.getElementById('switch')
-        .style.display = "none";    
+        .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible"; 
 }
 
 function showButton4() {
@@ -58,7 +64,9 @@ function showButton4() {
     document.getElementById('hide-button')
         .style.display = "block";
     document.getElementById('switch')
-        .style.display = "none";    
+        .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";    
 }
 
 function showButton5() {
@@ -67,7 +75,9 @@ function showButton5() {
     document.getElementById('hide-button')
         .style.display = "block";
     document.getElementById('switch')
-        .style.display = "none";    
+        .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";    
 }
 function showButton6() {
     document.getElementById('img-full-6')
@@ -76,6 +86,8 @@ function showButton6() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 function showButton7() {
     document.getElementById('img-full-7')
@@ -84,6 +96,8 @@ function showButton7() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 function showButton8() {
     document.getElementById('img-full-8')
@@ -92,6 +106,8 @@ function showButton8() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 function showButton9() {
     document.getElementById('img-full-9')
@@ -100,6 +116,8 @@ function showButton9() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 function showButton10() {
     document.getElementById('img-full-10')
@@ -108,6 +126,8 @@ function showButton10() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 function showButton11() {
     document.getElementById('img-full-11')
@@ -116,6 +136,8 @@ function showButton11() {
         .style.display = "block";
     document.getElementById('switch')
         .style.display = "none";
+    document.getElementById('dark')
+        .style.visibility = "visible";
 }
 
 function hideButton() {
@@ -145,4 +167,6 @@ function hideButton() {
     .style.display = "none";
     document.getElementById('switch')
         .style.display = "block";
+    document.getElementById('dark')
+        .style.visibility = "hidden";
 }
