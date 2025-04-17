@@ -51,6 +51,15 @@ html {
         
     }
 
+    #dark {
+        position: absolute;
+        height: 550vh;
+        width: 550vw;
+        left: -80px;
+        background-color: rgba(0, 0, 0, 0.6);
+        visibility: hidden;
+    }
+
 .activate-button {
     color: aliceblue;
     position: absolute;
