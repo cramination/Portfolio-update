@@ -873,7 +873,7 @@ z-index: 1;
         .resume-button {
             position: absolute;
             padding: 10px 20px; /* Add padding for visual space */
-            top: 35%;
+            top: 300px;
             left: 1000px;
             background-color: #ebdfab; /* Example background color */
             color: rgb(136, 108, 49); /* Example text color */
