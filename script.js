@@ -1,3 +1,17 @@
+function handleOrientationhange() {
+    const viewportMeta = document.querySelector('meta[name="viewport"]');
+    if (window.innerWidth < window.innerHeight) {
+        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no');
+    } else {
+        viewportMeta.setAttribute('content', 'width=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no');
+    }
+}
+
+handleOrientationhange();
+
+window.addEventListener('orientationchange', handleOrientationhange);
+window.addEventListener('resize', handleOrientationhange);
+
 function switchVideos() {
 
     let video1 = document.getElementById("video1");
