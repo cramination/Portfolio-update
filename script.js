@@ -1,16 +1,12 @@
-function handleOrientationhange() {
-    const viewportMeta = document.querySelector('meta[name="viewport"]');
-    if (window.innerWidth < window.innerHeight) {
-        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no');
-    } else {
-        viewportMeta.setAttribute('content', 'width=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no');
-    }
-}
+screen.orientation.addEventListener("change", function() {
+    // Do something on orientation change
+    console.log("Orientation changed:", screen.orientation.type);
+  });
 
-handleOrientationhange();
-
-window.addEventListener('orientationchange', handleOrientationhange);
-window.addEventListener('resize', handleOrientationhange);
+window.addEventListener('resize', function() {
+    // Do something on resize
+    console.log("Window resized");
+  });
 
 function switchVideos() {
 
